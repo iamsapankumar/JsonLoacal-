@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import { View, Text, Button } from 'react-native'
+import { feed } from './data'
+import Custom from './Custom' 
+
 
 
 class Feed extends Component {
     render() {
         return (
             <View>
-                <Text>Feed</Text>
-                <Button onPress={()=> this.props.navigation.navigate('ItemDetail')} title="Item"/>
+               <Custom products ={feed}/>
+             
             </View>
 
         );

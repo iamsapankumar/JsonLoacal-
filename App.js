@@ -6,11 +6,12 @@ import HomeScreen from './src/components/HomeScreen'
 // import { Provider } from 'react-redux'
 //import Navi from './basic/components/Navi'
 //import IndexScreen from './src/components/Index'
+import Nav from './redux/components/Nav'
 
 export default class App extends Component {
   render() {
     return (
-    <HomeScreen/>
+    <Nav/>
     )
   }
 

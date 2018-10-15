@@ -4,9 +4,12 @@ import { createStackNavigator } from 'react-navigation'
 
 import ItemDetail from './ItemDetail'
 import Feed from './Feed'
+import Home from './Home'
+
 
 
 const Navigator = createStackNavigator({
+    Home: Home,
     Feed: Feed,
     ItemDetail: ItemDetail
 })
